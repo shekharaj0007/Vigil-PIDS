@@ -10,6 +10,51 @@ Smart module for the **Vigil Perimeter Intrusion Detection System (PIDS)** that 
 4. **Operator dashboard** with live metrics, factor breakdown, analytics, and history
 5. **Demo scenarios** for offline/presentation use when weather is calm
 
+6. ## 📸 Screenshots
+
+### 1. Dashboard Home
+
+<p align="center">
+  <img src="./assets/01-dashboard-home.png" alt="Vigil PIDS Dashboard Home" width="100%">
+</p>
+
+### 2. Location Search — Agra
+
+<p align="center">
+  <img src="./assets/02-location-search-agra.png" alt="Location Search Agra" width="100%">
+</p>
+
+### 3. Selected Location
+
+<p align="center">
+  <img src="./assets/03-location-selected.png" alt="Selected Location Weather" width="100%">
+</p>
+
+### 4. Live Weather Recommendation
+
+<p align="center">
+  <img src="./assets/04-live-weather-recommendation.png" alt="Live Weather Recommendation" width="100%">
+</p>
+
+### 5. High Wind Scenario
+
+<p align="center">
+  <img src="./assets/05-high-wind-scenario.png" alt="High Wind Scenario" width="100%">
+</p>
+
+### 6. Thunderstorm Scenario
+
+<p align="center">
+  <img src="./assets/06-thunderstorm-scenario.png" alt="Thunderstorm Scenario" width="100%">
+</p>
+
+### 7. Analytics & History
+
+<p align="center">
+  <img src="./assets/07-analytics-and-history.png" alt="Analytics and History" width="100%">
+</p>
+
+
 ## Tech stack
 
 | Layer | Technology |
