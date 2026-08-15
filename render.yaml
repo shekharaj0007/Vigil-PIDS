@@ -1,0 +1,29 @@
+# Render Blueprint — Vigil PIDS Weather Calibration
+# Docs: https://render.com/docs/blueprint-spec
+#
+# After first deploy, set frontend env VITE_API_BASE to your live API URL
+# (Dashboard → Static Site → Environment), then redeploy the static site.
+
+services:
+  - type: web
+    name: vigil-pids-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+
+  - type: web
+    name: vigil-pids-dashboard
+    runtime: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://REPLACE-WITH-YOUR-API.onrender.com

@@ -1,0 +1,54 @@
+{
+  "calm_clear": {
+    "location_name": "Demo — Calm Perimeter",
+    "latitude": 28.61,
+    "longitude": 77.21,
+    "temperature_c": 28,
+    "humidity_pct": 45,
+    "wind_speed_kmh": 8,
+    "rainfall_mm": 0,
+    "weather_code": 0,
+    "weather_label": "Clear sky",
+    "is_storm": false,
+    "recorded_at": "2026-08-04T10:00:00"
+  },
+  "high_wind": {
+    "location_name": "Demo — Windy Fence Line",
+    "latitude": 19.07,
+    "longitude": 72.87,
+    "temperature_c": 31,
+    "humidity_pct": 55,
+    "wind_speed_kmh": 48,
+    "rainfall_mm": 0,
+    "weather_code": 3,
+    "weather_label": "Overcast",
+    "is_storm": false,
+    "recorded_at": "2026-08-04T10:00:00"
+  },
+  "heavy_rain": {
+    "location_name": "Demo — Rain Zone",
+    "latitude": 12.97,
+    "longitude": 77.59,
+    "temperature_c": 24,
+    "humidity_pct": 88,
+    "wind_speed_kmh": 18,
+    "rainfall_mm": 8,
+    "weather_code": 65,
+    "weather_label": "Heavy rain",
+    "is_storm": false,
+    "recorded_at": "2026-08-04T10:00:00"
+  },
+  "thunderstorm": {
+    "location_name": "Demo — Storm Sector",
+    "latitude": 22.57,
+    "longitude": 88.36,
+    "temperature_c": 26,
+    "humidity_pct": 92,
+    "wind_speed_kmh": 55,
+    "rainfall_mm": 12,
+    "weather_code": 95,
+    "weather_label": "Thunderstorm",
+    "is_storm": true,
+    "recorded_at": "2026-08-04T10:00:00"
+  }
+}
