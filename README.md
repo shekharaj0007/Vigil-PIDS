@@ -1,5 +1,7 @@
 # Vigil PIDS — Weather-Based Sensor Calibration Suggestion System
 
+Live Deployment at https://vigil-pids.onrender.com/
+
 Smart module for the **Vigil Perimeter Intrusion Detection System (PIDS)** that fetches live weather data, analyzes environmental risk, and recommends sensor sensitivity settings so operators can reduce weather-driven false alarms.
 
 ## Features
